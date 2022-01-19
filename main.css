@@ -13,7 +13,6 @@ header {
 
 .header__logo {
     height: 30px;
-
 }
 
 a {
@@ -44,16 +43,6 @@ a {
     transition: background-color: 0.3s ease-in;
   }
 
-  .about__image {
-    width: 500px;
-  }
-   
-  .about__sun—image {
-    height: 100px;
-    width: 100px;
-    
-  }
-
   .about {
     display: flex;
     align-items: center;
@@ -65,6 +54,15 @@ a {
     background-size: cover;
   }
 
+  .about__sun—image {
+    height: 100px;
+    width: 100px; 
+  }
+
+  .about__image {
+    width: 500px;
+  }
+   
   .about h1 {
     font-size: 70px;
     line-height: 76px;
@@ -162,14 +160,13 @@ a {
   }
 
   .footer {
-    padding: 90px 20px;
+    padding: 90px 20px 90px 20px;
     font-size: 16px;
     font-weight: 600;
   }
   .footer__container {
     display: flex;
     justify-content: center;
-    align-items: center;
   }
 
   .footer__copyright {
